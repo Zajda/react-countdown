@@ -5,10 +5,10 @@ import Timer from './components/Timer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Timer timeFormat="DD MM YYYY, h:mm a"/>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Timer />
+    </React.StrictMode>,
+    document.getElementById('root'),
 );
 
 // If you want your app to work offline and load faster, you can change
